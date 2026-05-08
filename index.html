@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia del Fútbol</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: white;
+        }
+
+        header{
+            background: rgba(0,0,0,0.7);
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+        }
+
+        header h1{
+            font-size: 42px;
+            color: #00ff99;
+        }
+
+        nav{
+            margin-top: 15px;
+        }
+
+        nav a{
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover{
+            color: #00ff99;
+        }
+
+        .banner{
+            height: 400px;
+            background: url('https://images.unsplash.com/photo-1574629810360-7efbbe195018?q=80&w=1200&auto=format&fit=crop') center/cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .banner h2{
+            background: rgba(0,0,0,0.6);
+            padding: 20px;
+            border-radius: 10px;
+            font-size: 40px;
+        }
+
+        .contenedor{
+            width: 90%;
+            margin: auto;
+            padding: 40px 0;
+        }
+
+        .card{
+            background: rgba(255,255,255,0.1);
+            margin-bottom: 30px;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.4);
+            transition: transform 0.3s;
+        }
+
+        .card:hover{
+            transform: scale(1.03);
+        }
+
+        .card h3{
+            color: #00ff99;
+            margin-bottom: 15px;
+            font-size: 30px;
+        }
+
+        .card p{
+            line-height: 1.8;
+            font-size: 18px;
+        }
+
+        .imagenes{
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .imagenes img{
+            width: 300px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+            transition: 0.3s;
+        }
+
+        .imagenes img:hover{
+            transform: scale(1.05);
+        }
+
+        footer{
+            background: black;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        footer p{
+            color: #ccc;
+        }
+
+        @media(max-width:768px){
+
+            .banner h2{
+                font-size: 28px;
+            }
+
+            .card p{
+                font-size: 16px;
+            }
+
+            .imagenes img{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Historia del Fútbol</h1>
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#origen">Origen</a>
+            <a href="#evolucion">Evolución</a>
+            <a href="#actualidad">Actualidad</a>
+        </nav>
+    </header>
+
+    <section class="banner" id="inicio">
+        <h2>El Deporte Más Popular del Mundo</h2>
+    </section>
+
+    <div class="contenedor">
+
+        <section class="card" id="origen">
+            <h3>⚽ Origen del Fútbol</h3>
+
+            <p>
+                El fútbol tiene sus raíces en juegos antiguos practicados en
+                diferentes culturas. Sin embargo, el fútbol moderno nació en
+                Inglaterra en el siglo XIX. En 1863 se creó la Football Association,
+                organización que estableció las primeras reglas oficiales del deporte.
+            </p>
+
+            <div class="imagenes">
+                <img src="https://images.unsplash.com/photo-1522778119026-d647f0596c20?q=80&w=1200&auto=format&fit=crop" alt="Balón de fútbol">
+                
+                <img src="https://images.unsplash.com/photo-1518604666860-9ed391f76460?q=80&w=1200&auto=format&fit=crop" alt="Partido antiguo">
+            </div>
+        </section>
+
+        <section class="card" id="evolucion">
+            <h3>🏆 Evolución del Deporte</h3>
+
+            <p>
+                Con el paso de los años, el fútbol se expandió por todo el mundo.
+                Se crearon grandes torneos como la Copa Mundial de la FIFA,
+                iniciada en 1930. Equipos históricos y jugadores legendarios
+                hicieron crecer la pasión por este deporte.
+            </p>
+
+            <div class="imagenes">
+                <img src="https://images.unsplash.com/photo-1547347298-4074fc3086f0?q=80&w=1200&auto=format&fit=crop" alt="Estadio">
+                
+                <img src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?q=80&w=1200&auto=format&fit=crop" alt="Trofeo fútbol">
+            </div>
+        </section>
+
+        <section class="card" id="actualidad">
+            <h3>🌍 El Fútbol en la Actualidad</h3>
+
+            <p>
+                Hoy el fútbol es el deporte más seguido del planeta.
+                Millones de personas disfrutan ligas internacionales,
+                torneos continentales y mundiales. Además, la tecnología
+                como el VAR ha cambiado la manera en que se arbitran los partidos.
+            </p>
+
+            <div class="imagenes">
+                <img src="https://images.unsplash.com/photo-1508098682722-e99c643e7485?q=80&w=1200&auto=format&fit=crop" alt="Afición fútbol">
+                
+                <img src="https://images.unsplash.com/photo-1575361204480-aadea25e6e68?q=80&w=1200&auto=format&fit=crop" alt="Jugador fútbol">
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>© 2026 - Página creada sobre la Historia del Fútbol</p>
+    </footer>
+
+</body>
+</html>
